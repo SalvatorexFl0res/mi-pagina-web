@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Cuidado del Agua</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header, footer {
+            background: #007BFF;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        header {
+            flex-shrink: 0;
+        }
+        footer {
+            flex-shrink: 0;
+            margin-top: auto;
+        }
+        main {
+            flex-grow: 1;
+            padding: 20px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        h1, h2 {
+            color: #007BFF;
+        }
+        .content img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenidos a Nuestro Sitio Web</h1>
+        <p>La importancia del cuidado del agua...</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#pagina1">¿Por qué cuidar el agua?</a></li>
+            <li><a href="#pagina2">Consejos para ahorrar agua</a></li>
+            <li><a href="#pagina3">Impacto del uso excesivo del agua</a></li>
+            <li><a href="#pagina4">Proyectos de conservación del agua</a></li>
+            <li><a href="#pagina5">Estadísticas sobre el agua</a></li>
+            <li><a href="#pagina6">Datos curiosos sobre el agua</a></li>
+            <li><a href="#administrador">Administrador</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    <main class="content">
+        <section id="pagina1">
+            <h2>¿Por qué cuidar el agua?</h2>
+            <p>El agua es esencial para la vida. Todos los seres vivos necesitan agua para sobrevivir...</p>
+            <img src='https://via.placeholder.com/150' alt='Agua'>
+            <a href="https://example.com" target="_blank">Más información</a>
+            <a href="#top">Volver a Inicio</a>
+        </section>
+        <section id="pagina2">
+            <h2>Consejos para ahorrar agua</h2>
+            <ul>
+                <li>Reparar goteras</li>
+                <li>Usar electrodomésticos eficientes</li>
+                <li>Tomar duchas más cortas</li>
+            </ul>
+            <img src='https://via.placeholder.com/150' alt='Consejos'>
+            <a href="#top">Volver a Inicio</a>
+        </section>
+        <section id="pagina3">
+            <h2>Impacto del uso excesivo del agua</h2>
+            <p>El uso excesivo del agua puede llevar a la escasez y afectar a los ecosistemas...</p>
+            <table border='1'>
+                <tr><th>Impacto</th><th>Descripción</th></tr>
+                <tr><td>Escasez de agua</td><td>Falta de agua para consumo humano</td></tr>
+                <tr><td>Desertificación</td><td>Transformación de tierras fértiles en desiertos</td></tr>
+            </table>
+            <img src='https://via.placeholder.com/150' alt='Impacto'>
+            <a href="#top">Volver a Inicio</a>
+        </section>
+        <section id="pagina4">
+            <h2>Proyectos de conservación del agua</h2>
+            <p>Existen muchos proyectos a nivel mundial para conservar el agua...</p>
+            <ol>
+                <li>Proyecto 1: Reforestación</li>
+                <li>Proyecto 2: Tratamiento de aguas residuales</li>
+                <li>Proyecto 3: Educación y concienciación</li>
+            </ol>
+            <img src='https://via.placeholder.com/150' alt='Proyectos'>
+            <a href="#top">Volver a Inicio</a>
+        </section>
+        <section id="pagina5">
+            <h2>Estadísticas sobre el agua</h2>
+            <table border='1'>
+                <tr><th>Estadística</th><th>Valor</th></tr>
+                <tr><td>Porcentaje de agua en la Tierra</td><td>71%</td></tr>
+                <tr><td>Porcentaje de agua dulce</td><td>2.5%</td></tr>
+                <tr><td>Porcentaje de agua potable</td><td>0.007%</td></tr>
+            </table>
+            <img src='https://via.placeholder.com/150' alt='Estadísticas'>
+            <a href="#top">Volver a Inicio</a>
+        </section>
+        <section id="pagina6">
+            <h2>Datos curiosos sobre el agua</h2>
+            <ul>
+                <li>El 97% del agua en la Tierra es salada.</li>
+                <li>El agua es el único recurso que se encuentra en tres estados: sólido, líquido y gaseoso.</li>
+                <li>El cuerpo humano está compuesto por aproximadamente 60% de agua.</li>
+            </ul>
+            <img src='https://via.placeholder.com/150' alt='Curiosidades'>
+            <a href="#top">Volver a Inicio</a>
+        </section>
+        <section id="administrador">
+            <h2>Administrador</h2>
+            <p>Datos del administrador del sitio: Juan Pérez, email: juan@example.com</p>
+            <iframe src='https://maps.google.com/maps?q=19.452485,-99.109145&z=15&output=embed' width="600" height="450"></iframe>
+            <a href="#top">Volver a Inicio</a>
+        </section>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form id="contactForm">
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required><br>
+                <input type="submit" value="Enviar">
+            </form>
+            <a href="#top">Volver a Inicio</a>
+        </section>
+    </main>
+    <footer>&copy; 2024 El Cuidado del Agua. Todos los derechos reservados.</footer>
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            alert('Formulario enviado con éxito');
+        });
+    </script>
+</body>
+</html>
